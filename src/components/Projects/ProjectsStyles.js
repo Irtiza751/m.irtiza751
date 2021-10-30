@@ -10,7 +10,6 @@ export const Img = styled.img`
 export const GridContainer = styled.section`
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-place-items: center;
 padding: 2rem 0;
 column-gap: 2rem;
 row-gap: 3rem;
@@ -26,7 +25,7 @@ export const BlogCard = styled.div`
   background-color: #172032;
   text-align: left;
   width: 400px;
-  transition: 0.4s ease;
+  transition: 0.3s ease;
   &:hover {
     transform: translateY(-10px);
   }
