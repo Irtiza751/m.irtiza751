@@ -3,9 +3,9 @@ import styled from 'styled-components'
 export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex" };
   flex-direction: ${(props) => props.row ? "row" : "column" };
-  padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
+  padding: ${(props) => props.nopadding ? "0" : "32px 1rem 0" } ;
   margin: 0 auto;
-  max-width: 1040px;
+  max-width: 1260px;
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
@@ -56,7 +56,7 @@ export const SectionTitle = styled.h2`
 
 export const SectionText = styled.p`
   max-width: 800px;
-  font-size: 24px;
+  font-size: 2.2rem;
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;

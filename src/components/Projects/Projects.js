@@ -1,8 +1,11 @@
 import React from 'react';
-
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import Image from 'next/image';
+import Link from 'next/link';
+import { FiExternalLink, FiGithub } from 'react-icons/fi';
+import { BlogCard, CardInfo, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
+import appCss from '../../styles/app.module.scss';
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -12,7 +15,7 @@ const Projects = () => (
       {projects.map((p, i) => {
         return (
           <BlogCard key={i}>
-          <Img src={p.image} />
+            <Image src={p.image} width={400} height={260} className={appCss.projImage} />
             <TitleContent>
               <HeaderThree title>{p.title}</HeaderThree>
               <Hr />
@@ -27,8 +30,14 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={p.visit}>Code</ExternalLinks>
-              <ExternalLinks href={p.source}>Source</ExternalLinks>
+              <Link href="/">
+                <a>
+                  <FiGithub color={'#e4e6e7'} size={22} strokeWidth={1} title="Checkout on github" />
+                </a>
+              </Link>
+              <Link href="/">
+                <a><FiExternalLink color={'#e4e6e7'} size={22} strokeWidth={1} title="Visit link" /></a>
+              </Link>
             </UtilityList>
           </BlogCard>
         );
