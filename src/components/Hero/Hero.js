@@ -14,7 +14,7 @@ const Hero = (props) => (
           Muhammad Irtiza.
         </SectionTitle>
         <SectionText>
-          I am a self-taught app developer, with a strong eye for innovative design and a keen understanding of techniques geared towards optimum user experience.
+          I am a software developer with robust problem-solving skills and proven experience in creating and designing software in a test-driven environment.
         </SectionText>
         {/* <Button onClick={props.handleClick}>My Resume</Button> */}
         <Link href="/Resume.pdf">
