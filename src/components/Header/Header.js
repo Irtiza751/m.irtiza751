@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+//import Image from 'next/image';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
@@ -11,7 +11,7 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
-          <Image src="/logo.svg" width={150} height={50} />
+          <image src="/logo.svg" width="10rem" height="auto" />
         </a>
       </Link>
     </Div1>
