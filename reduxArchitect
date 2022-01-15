@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-01-15T07:50:54.645Z" agent="5.0 (X11)" version="16.2.7" etag="BtbTtLM5xzIqdpKLF7tw" type="github"><diagram id="ygKNdSWJQUwT9-ttr-Jk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-15T07:54:49.263Z" agent="5.0 (X11)" etag="v64DbtKjm1Kvuw6W7YxM" version="16.2.7" type="github">
+  <diagram id="ygKNdSWJQUwT9-ttr-Jk" name="Page-1">
+    <mxGraphModel dx="958" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iDXxrjwJxPfH7nVmbjNc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDXxrjwJxPfH7nVmbjNc-1" target="iDXxrjwJxPfH7nVmbjNc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDXxrjwJxPfH7nVmbjNc-1" value="Actions" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iDXxrjwJxPfH7nVmbjNc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iDXxrjwJxPfH7nVmbjNc-2" target="iDXxrjwJxPfH7nVmbjNc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDXxrjwJxPfH7nVmbjNc-2" value="Reducers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iDXxrjwJxPfH7nVmbjNc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iDXxrjwJxPfH7nVmbjNc-3" target="iDXxrjwJxPfH7nVmbjNc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDXxrjwJxPfH7nVmbjNc-3" value="&lt;div&gt;Redux thunk/&lt;/div&gt;&lt;div&gt;Middleware&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iDXxrjwJxPfH7nVmbjNc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iDXxrjwJxPfH7nVmbjNc-4" target="iDXxrjwJxPfH7nVmbjNc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDXxrjwJxPfH7nVmbjNc-4" value="dispatcher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iDXxrjwJxPfH7nVmbjNc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDXxrjwJxPfH7nVmbjNc-5" target="iDXxrjwJxPfH7nVmbjNc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDXxrjwJxPfH7nVmbjNc-5" value="dispatcher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iDXxrjwJxPfH7nVmbjNc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iDXxrjwJxPfH7nVmbjNc-6" target="iDXxrjwJxPfH7nVmbjNc-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDXxrjwJxPfH7nVmbjNc-6" value="&lt;div&gt;Store/Data&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iDXxrjwJxPfH7nVmbjNc-12" value="&lt;div&gt;Global state&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
